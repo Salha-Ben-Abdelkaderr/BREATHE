@@ -1,0 +1,41 @@
+[debug] [2022-09-04T20:25:26.512Z] ----------------------------------------------------------------------
+[debug] [2022-09-04T20:25:26.557Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\21694\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-09-04T20:25:26.559Z] CLI Version:   11.8.0
+[debug] [2022-09-04T20:25:26.560Z] Platform:      win32
+[debug] [2022-09-04T20:25:26.561Z] Node Version:  v16.15.1
+[debug] [2022-09-04T20:25:33.321Z] Time:          Sun Sep 04 2022 21:25:26 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2022-09-04T20:25:33.323Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-04T20:25:40.276Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-04T20:25:40.279Z] > authorizing via signed-in user (salhaabdelkader@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2022-09-04T20:25:49.416Z] [hub] writing locator at C:\Users\21694\AppData\Local\Temp\hub-breathe-39494.json
+[debug] [2022-09-04T20:25:51.743Z] > refreshing access token with scopes: []
+[debug] [2022-09-04T20:25:51.752Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-09-04T20:25:51.753Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-04T20:26:03.853Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-09-04T20:26:03.855Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-04T20:26:04.441Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/breathe-39494/sites 
+[debug] [2022-09-04T20:26:05.810Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/breathe-39494/sites 200
+[debug] [2022-09-04T20:26:05.812Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/breathe-39494/sites {"sites":[{"name":"projects/breathe-39494/sites/breathe-39494","defaultUrl":"https://breathe-39494.web.app","appId":"1:136737951458:web:620ec0db9e80e190ecd8bb","type":"DEFAULT_SITE"}]}
+[debug] [2022-09-04T20:26:05.813Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/breathe-39494/webApps/1:136737951458:web:620ec0db9e80e190ecd8bb/config [none]
+[debug] [2022-09-04T20:26:07.040Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/breathe-39494/webApps/1:136737951458:web:620ec0db9e80e190ecd8bb/config 200
+[debug] [2022-09-04T20:26:07.041Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/breathe-39494/webApps/1:136737951458:web:620ec0db9e80e190ecd8bb/config {"projectId":"breathe-39494","appId":"1:136737951458:web:620ec0db9e80e190ecd8bb","databaseURL":"https://breathe-39494-default-rtdb.firebaseio.com","storageBucket":"breathe-39494.appspot.com","locationId":"us-central","apiKey":"AIzaSyAn2j4Z_cvo1K_XcYfPrgNlSW3PLqnkQ7c","authDomain":"breathe-39494.firebaseapp.com","messagingSenderId":"136737951458","measurementId":"G-N1D61NWY4G"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
